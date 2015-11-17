@@ -1,4 +1,4 @@
-FROM ccv:base
+FROM passcod/ccv:base
 MAINTAINER Félix Saparelli <me@passcod.name>
 CMD ["ccv"]
 
