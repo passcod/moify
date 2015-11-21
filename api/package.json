@@ -1,7 +1,7 @@
 {
-  "name": "moify",
+  "name": "@passcod/moify-api",
   "version": "1.0.0",
-  "description": "Put a mo on it!",
+  "description": "Put a mo on it! API",
   "main": "index.js",
   "scripts": {
     "test": "standard && snyk test"
@@ -10,20 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/passcod/moify.git"
   },
-  "keywords": [
-    "mo",
-    "mustache",
-    "computer-vision",
-    "face-detection"
-  ],
   "author": "Félix Saparelli <me@passcod.name>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/passcod/moify/issues"
   },
-  "homepage": "https://github.com/passcod/moify#readme",
+  "homepage": "https://github.com/passcod/moify/tree/api",
+  "devDependencies": {
+    "snyk": "^1.1.1",
+    "standard": "^5.3.1",
+  },
   "dependencies": {
-    "999": "0.0.1",
     "koa": "^1.1.2",
     "koa-helmet": "^0.4.0",
     "koa-json": "^1.1.1",
@@ -32,8 +29,6 @@
     "koa-response-time": "^1.0.2",
     "koa-static": "^1.5.2",
     "redis": "^2.3.0",
-    "snyk": "^1.1.1",
-    "standard": "^5.3.1",
     "wreck": "^7.0.0"
   }
 }
