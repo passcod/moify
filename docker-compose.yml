@@ -1,0 +1,10 @@
+ccv:
+  image: passcod/ccv
+
+api:
+  build: ./api
+  ports:
+    - 5000
+  links:
+    - ccv
+
